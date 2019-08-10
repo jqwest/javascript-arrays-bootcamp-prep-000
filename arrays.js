@@ -3,8 +3,10 @@ var chocolateBars = [
   'hundred grand',
   'kitkat',
   'skittles',
-
 ]
+
+var candyString = "milky way"
+
 
 function addElementToBeginningOfArray(chocolateBars, candyString) {
   return [candyString, ...chocolateBars];
